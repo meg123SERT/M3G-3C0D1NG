@@ -1,0 +1,185 @@
+/*  
+    Filename: eagles.css
+*/
+
+/* apply a natural box layout model to all elements 
+* {
+   box-sizing: border-box;
+}*/
+
+
+body {
+	background: linear-gradient(rgb(4, 30, 66), white);
+	background-size:cover;
+	background-attachment: fixed;
+	font-family: "Maven Pro", arial, helvetica, sans-serif;
+}
+
+ol, ul {
+   list-style: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+a:link, a:visited {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:hover {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:active {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* container */
+#container {
+   box-shadow: 10px 10px 10px rgba(3, 25, 55, .8);
+   width: 960px;
+   margin: auto;
+}
+
+/* page header */
+header {
+   /*font-size: 48px;*/
+   border-bottom: 36px solid #003976;
+   border-left: 35px solid #a99260;
+   height: 96px;
+   background-color: #a99260;
+   vertical-align: top;
+}
+
+header img {
+   position: relative;
+   left: -35px;
+   top: 2px;
+   display: inline-block;
+   width: 222px;
+   float: left;
+}
+
+header h1 {
+	color: #001f5b;
+	font-family: CabinBold, Helvetica, Arial, sans-serif;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 35px;
+	font-style: italic;
+	text-shadow: 2px 2px 2px #a3a9ac;
+}
+/* navigation */
+nav {
+   font-size: 16px;
+   font-weight: 900;
+   position: relative;
+   top: -50px;
+   color: white;
+   float: right;
+}
+
+nav ul {
+   text-align: right;
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 5px 15px;
+   margin: 0 3px;
+   z-index: 2;
+}
+
+nav ul li:hover {
+   background: white;
+   color: #003976;
+}
+
+/* main content */
+article {
+   background: white;
+   border-top: 1px solid #003976;
+   padding: 10px;
+}
+
+article h2 {
+   font-size: 1.2em;
+   font-weight: bold;
+   width: 222px;
+   text-align: left;
+   padding: 10px 5px 0 5%;
+   color: #8d7249;
+}
+
+article p {
+   margin-bottom: 6px;
+   line-height: 1.2em;
+}
+
+article table {
+   width: 90%;
+   margin: auto;
+   border: 1px solid black;
+   /*background-color: rgba(141, 114, 73, .15);*/
+}
+
+article table caption {
+   padding: 5px;
+   text-align: left;
+   color: #8d7249;
+}
+
+article tr td:first-of-type, article tr td:last-of-type {
+   background: #DDDDDD;
+}
+
+article td {
+   border: 1px solid black;
+   padding: 5px;
+   width: 14%;
+   vertical-align: top;
+}
+
+article th {
+	font-weight: 700;
+	background: #8d7249;
+	color: white;
+	border: none;
+    padding: 10px;
+}
+
+article tr:first-of-type{
+	border-bottom: 4px solid #003976;
+}
+
+article td p:first-of-type {
+   font-weight: 900;
+   text-align: right;
+}
+
+article td p b {
+   border: #004c9d 2px solid;
+   padding: 1px 5px 1px 5px;
+   background-color: rgba(0, 76, 157, .2);
+}
+
+/* footer */
+footer {
+   font-size: 14px;
+   padding: 10px;
+   background: rgb(4, 30, 66);
+   color: white;
+}
+
+footer p {
+   text-align: center;
+}
+footer span {
+	color: #8d7249;
+	font-size: 16px;
+}
